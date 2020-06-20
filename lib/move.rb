@@ -6,4 +6,14 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# code your input_to_index and move method here!
+
+
+ def input_to_index
+    index = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    user_input = "1"
+    converted_input = input_to_index(-1).to_i
+  end
+  
+  
+  
+  
